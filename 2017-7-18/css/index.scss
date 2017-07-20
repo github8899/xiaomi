@@ -1,0 +1,313 @@
+header{
+    .nav{
+        width: 100%;
+        position: fixed;
+        top: 0.25rem;
+        left: 0;
+        height: 2.5rem;
+        z-index: 99;
+        ul{
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            font-size: 0.6rem;
+            text-align: center;
+            .image-1{
+                    width: 2.8rem;
+                    height: 1.3rem;
+            }
+            .image-2{
+                width: 1.1rem;
+                height: 1.2rem;
+            }    
+            .list-0{
+                width: 70%;
+                position: relative;                
+                input{
+                    width: 100%;
+                    height: 1.5rem;
+//                  border: 1px solid;
+                    border-radius: 0.4rem;
+                    padding-left: 1.2rem;
+                    box-sizing: border-box;
+                    background: white;
+                }
+                .image{
+                    position: absolute;
+                    bottom: 1rem;
+                    left: 0.2rem;
+                }
+            }
+        }
+    }
+    .box{
+        width: 100%;
+        overflow: hidden;
+        position: relative;    
+        .banner{
+            li{
+                img{
+                    width: 100%;
+                    display: none;
+                }
+            }           
+        }
+        .yuan{
+            position: absolute;
+            left: 35%;
+            li{
+                width: 8px;
+                height: 8px;
+                border: 1px solid white;
+                border-radius: 50%;
+                position: relative;
+                float: left;
+                top: -22px;
+                margin: 5px;
+                cursor: pointer;
+            }
+        }       
+    }
+}
+section{
+    background: gainsboro;
+    .content-1{
+        background: white;
+        padding-bottom: 1rem;
+        ul{
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            text-align: center;
+            li{
+                margin-top: 1rem;
+                p{
+                    margin-top: 0.6rem;
+//                  font-size: 0.6rem;
+                }
+                img{
+                    width: 2.35rem;
+                }
+                .potn{
+                    position: relative;
+                  
+                               
+                    .tips-1{
+                        padding: 0.1rem 0.3rem;
+                        background: #ff7f00;
+                        border-radius: 0.2rem;
+                        color: white;  
+                        position: absolute;
+                        bottom: 1.5rem;
+                        right: -1rem;
+                    } 
+                    .tips-2{
+                        padding: 0.1rem 0.3rem;
+                        background: #ff7f00;
+                        border-radius: 0.2rem;
+                        color: white; 
+                        position: absolute;
+                        bottom: 1.5rem;
+                        right: -0.5rem;
+                    }                                 
+                }
+            }
+        }
+    }
+    .content-2{
+        margin-top: 0.35rem;       
+        background: white;
+        .list{
+            width: 100%;            
+            .list-1{
+//              font-size: 0.7rem;
+                display: flex;
+                border-bottom: 1px solid gray;  
+//              padding: 1.1rem 0 0.65rem 0;             
+               div{
+                   width: calc(100%/3);
+                   text-align: center;
+                   border-left: 1px solid gainsboro;
+                   margin: 1.1rem 0 0.65rem 0;
+                    img{
+                        width: 3.5rem;
+                        height: 2rem;
+                        margin: 0 1.3rem;
+                    }
+               }
+               div:nth-of-type(1){
+                   border: none;
+               }
+            }
+            .list-2{
+                width: 100%;
+                display: flex;
+                div{
+                    width: 50%;
+                    padding: 0.85rem 1.5rem 0.7rem 1.3rem;
+                    border-left: 1px solid gainsboro;
+                    a{
+                        img{
+                            width: 100%;
+                        }
+                    }
+                }
+                div:nth-of-type(1){
+                    border: none;
+                }
+            }
+            .list-3{
+                width: 100%;
+                display: flex;
+                border-bottom: 1px solid gainsboro;
+                div{
+                   width: calc(100%/3);
+                   text-align: center;
+                   border-left: 1px solid gainsboro;
+                   margin: 1.1rem 0 0.65rem 0;
+                    img{
+                        width: 3.5rem;
+                        height: 2rem;
+                        margin: 0 1.3rem;
+                    }
+                }
+                div:nth-of-type(1){
+                    border: none;
+                }
+            }
+            .list-4{
+                margin-bottom: 0.35rem;
+                display: flex;
+                div{
+                    a{
+                        img{
+                            width: 13.5rem;
+                        }
+                    }
+                    .title-1{
+                        margin-top: 1rem;
+                        margin-left: 0.5rem;
+                    }
+                    .title-2{
+                        margin-top: 0.3rem;
+                        margin-left: 1rem;
+                        color: gray;
+                    }
+                }
+            }
+        }
+    }
+    .content-3{
+        background: white;
+        .title{
+            display: flex;
+            justify-content: space-between;
+            color: orange;
+            font-size: 1rem;
+            line-height: 2rem;
+            border-left: 0.2rem solid orange;
+            p{
+                margin: 0 0.5rem;
+            }
+            .txt-1{
+                color: gray;
+                line-height: 1.5rem;
+            }
+        }
+        ul{
+            li{
+                width: 100%;
+                border-top: 1px solid gainsboro;
+                border-bottom: 1px solid gainsboro;
+                display: flex;
+                padding-top: 0.6rem;
+                padding-bottom: 1rem;
+                .div-2{
+                    width: 15.6rem;
+                }
+                div{
+                    margin: 0 0.4rem;
+                    a{
+                        img{                            
+                            width: 4.2rem;
+                        }
+                    }
+                    .txt-2{
+                        width: 15rem;
+                        font-size: 0.7rem;
+                        margin-top: 0.2rem;
+                        margin-right: 1rem;
+                        line-height: 1rem;
+                    }
+                    .txt-3{
+                        padding-top: 0.5rem;
+                        font-size: 0.6rem;
+                        a{
+                            color: gray;                            
+                        }                       
+                    }
+                    .txt-4{
+                        font-size: 0.6rem;
+                        margin-right: 0.4rem;
+                        margin-top: 0.5rem;
+                        .flo-l{
+                            float: left;
+                            a{
+                                color: red;
+                            }
+                        }
+                        .flo-r{
+                            float: right;
+                            margin-right: 0.8rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .content-4{
+        background: white;
+        text-align: center;
+        line-height: 2.5rem;
+    }
+    .content-5{
+        height: 3rem;
+    }
+}
+footer{
+    width: 100%;
+    background: white;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding-bottom: 0.35rem;
+    padding-top: 0.35rem;
+    ul{     
+        display: flex;
+        li{
+            width: 20%;
+            text-align: center;
+            font-size: 0.6rem;
+            a{
+                img{
+                    width: 1.3rem;
+                    height: 1.3rem;
+                }
+            }
+        }
+    }
+}
+.clearfix:after{
+    clear: both;
+    display: block;
+    content: '';
+}
+.flo-l{
+    float: left;
+    a{
+    color: red;
+    }
+}
+.flo-r{
+    float: right;
+}
